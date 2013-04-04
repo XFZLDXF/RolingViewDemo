@@ -14,6 +14,7 @@
 
 @synthesize window = _window;
 @synthesize viewController = _viewController;
+@synthesize c;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -21,6 +22,8 @@
     // Override point for customization after application launch.
     self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
+//    self.c = [[OrderDishViewController alloc] initWithNibName:@"OrderDishViewController" bundle:nil];
+//    self.window.rootViewController = self.c;
     [self.window makeKeyAndVisible];
     return YES;
 }

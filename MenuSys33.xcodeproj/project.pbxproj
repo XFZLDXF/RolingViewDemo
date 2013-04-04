@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6045FEBF16F87D9100E0DDBE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6045FEBE16F87D9100E0DDBE /* QuartzCore.framework */; };
+		605FE38C16F82F38009F06D2 /* OrderDishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 605FE38A16F82F38009F06D2 /* OrderDishViewController.m */; };
+		605FE38D16F82F38009F06D2 /* OrderDishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 605FE38B16F82F38009F06D2 /* OrderDishViewController.xib */; };
 		6068FA0616F7445E0066563B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6068FA0516F7445E0066563B /* UIKit.framework */; };
 		6068FA0816F7445E0066563B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6068FA0716F7445E0066563B /* Foundation.framework */; };
 		6068FA0A16F7445E0066563B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6068FA0916F7445E0066563B /* CoreGraphics.framework */; };
@@ -15,22 +18,47 @@
 		6068FA1616F7445E0066563B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6068FA1516F7445E0066563B /* AppDelegate.m */; };
 		6068FA1916F7445E0066563B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6068FA1816F7445E0066563B /* ViewController.m */; };
 		6068FA1C16F7445E0066563B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6068FA1A16F7445E0066563B /* ViewController.xib */; };
+		6068FA2716F744DB0066563B /* button_background_disabled.png in Resources */ = {isa = PBXBuildFile; fileRef = 6068FA2316F744DB0066563B /* button_background_disabled.png */; };
+		6068FA2816F744DB0066563B /* button_background_disabled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6068FA2416F744DB0066563B /* button_background_disabled@2x.png */; };
+		6068FA2916F744DB0066563B /* button_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 6068FA2516F744DB0066563B /* button_background.png */; };
+		6068FA2A16F744DB0066563B /* button_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6068FA2616F744DB0066563B /* button_background@2x.png */; };
+		6068FA2D16F7461C0066563B /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6068FA2C16F7461C0066563B /* Tool.m */; };
+		6068FA3616F751A50066563B /* AddDishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6068FA3416F751A50066563B /* AddDishViewController.m */; };
+		6068FA3716F751A50066563B /* AddDishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6068FA3516F751A50066563B /* AddDishViewController.xib */; };
+		60F1FF2616F85AF100E51DC2 /* OrderDishCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F1FF2516F85AF100E51DC2 /* OrderDishCell.m */; };
+		60F1FF2816F85B1B00E51DC2 /* OrderDishCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60F1FF2716F85B1B00E51DC2 /* OrderDishCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6045FEBE16F87D9100E0DDBE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		605FE38916F82F38009F06D2 /* OrderDishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderDishViewController.h; sourceTree = "<group>"; };
+		605FE38A16F82F38009F06D2 /* OrderDishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderDishViewController.m; sourceTree = "<group>"; };
+		605FE38B16F82F38009F06D2 /* OrderDishViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderDishViewController.xib; sourceTree = "<group>"; };
 		6068FA0116F7445E0066563B /* MenuSys33.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuSys33.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6068FA0516F7445E0066563B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6068FA0716F7445E0066563B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6068FA0916F7445E0066563B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		6068FA0D16F7445E0066563B /* MenuSys33-Info.plist */ = {isa = PBXFileReference; path = "MenuSys33-Info.plist"; sourceTree = "<group>"; };
+		6068FA0D16F7445E0066563B /* MenuSys33-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MenuSys33-Info.plist"; sourceTree = "<group>"; };
 		6068FA0F16F7445E0066563B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6068FA1116F7445E0066563B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6068FA1316F7445E0066563B /* MenuSys33-Prefix.pch */ = {isa = PBXFileReference; path = "MenuSys33-Prefix.pch"; sourceTree = "<group>"; };
-		6068FA1416F7445E0066563B /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		6068FA1316F7445E0066563B /* MenuSys33-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MenuSys33-Prefix.pch"; sourceTree = "<group>"; };
+		6068FA1416F7445E0066563B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6068FA1516F7445E0066563B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6068FA1716F7445E0066563B /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		6068FA1716F7445E0066563B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6068FA1816F7445E0066563B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6068FA1B16F7445E0066563B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		6068FA2316F744DB0066563B /* button_background_disabled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_background_disabled.png; sourceTree = "<group>"; };
+		6068FA2416F744DB0066563B /* button_background_disabled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_background_disabled@2x.png"; sourceTree = "<group>"; };
+		6068FA2516F744DB0066563B /* button_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_background.png; sourceTree = "<group>"; };
+		6068FA2616F744DB0066563B /* button_background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_background@2x.png"; sourceTree = "<group>"; };
+		6068FA2B16F7461C0066563B /* Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
+		6068FA2C16F7461C0066563B /* Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
+		6068FA3316F751A50066563B /* AddDishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddDishViewController.h; sourceTree = "<group>"; };
+		6068FA3416F751A50066563B /* AddDishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddDishViewController.m; sourceTree = "<group>"; };
+		6068FA3516F751A50066563B /* AddDishViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddDishViewController.xib; sourceTree = "<group>"; };
+		60F1FF2416F85AF100E51DC2 /* OrderDishCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderDishCell.h; sourceTree = "<group>"; };
+		60F1FF2516F85AF100E51DC2 /* OrderDishCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderDishCell.m; sourceTree = "<group>"; };
+		60F1FF2716F85B1B00E51DC2 /* OrderDishCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OrderDishCell.xib; path = ../OrderDishCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6045FEBF16F87D9100E0DDBE /* QuartzCore.framework in Frameworks */,
 				6068FA0616F7445E0066563B /* UIKit.framework in Frameworks */,
 				6068FA0816F7445E0066563B /* Foundation.framework in Frameworks */,
 				6068FA0A16F7445E0066563B /* CoreGraphics.framework in Frameworks */,
@@ -50,6 +79,8 @@
 		6068F9F616F7445D0066563B = {
 			isa = PBXGroup;
 			children = (
+				6045FEBE16F87D9100E0DDBE /* QuartzCore.framework */,
+				6068FA2216F744BE0066563B /* imageSource */,
 				6068FA0B16F7445E0066563B /* MenuSys33 */,
 				6068FA0416F7445E0066563B /* Frameworks */,
 				6068FA0216F7445E0066563B /* Products */,
@@ -82,7 +113,18 @@
 				6068FA1716F7445E0066563B /* ViewController.h */,
 				6068FA1816F7445E0066563B /* ViewController.m */,
 				6068FA1A16F7445E0066563B /* ViewController.xib */,
+				6068FA3316F751A50066563B /* AddDishViewController.h */,
+				6068FA3416F751A50066563B /* AddDishViewController.m */,
+				6068FA3516F751A50066563B /* AddDishViewController.xib */,
 				6068FA0C16F7445E0066563B /* Supporting Files */,
+				6068FA2B16F7461C0066563B /* Tool.h */,
+				6068FA2C16F7461C0066563B /* Tool.m */,
+				605FE38916F82F38009F06D2 /* OrderDishViewController.h */,
+				605FE38A16F82F38009F06D2 /* OrderDishViewController.m */,
+				605FE38B16F82F38009F06D2 /* OrderDishViewController.xib */,
+				60F1FF2416F85AF100E51DC2 /* OrderDishCell.h */,
+				60F1FF2516F85AF100E51DC2 /* OrderDishCell.m */,
+				60F1FF2716F85B1B00E51DC2 /* OrderDishCell.xib */,
 			);
 			path = MenuSys33;
 			sourceTree = "<group>";
@@ -96,6 +138,17 @@
 				6068FA1316F7445E0066563B /* MenuSys33-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6068FA2216F744BE0066563B /* imageSource */ = {
+			isa = PBXGroup;
+			children = (
+				6068FA2416F744DB0066563B /* button_background_disabled@2x.png */,
+				6068FA2516F744DB0066563B /* button_background.png */,
+				6068FA2616F744DB0066563B /* button_background@2x.png */,
+				6068FA2316F744DB0066563B /* button_background_disabled.png */,
+			);
+			name = imageSource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +203,13 @@
 			files = (
 				6068FA1016F7445E0066563B /* InfoPlist.strings in Resources */,
 				6068FA1C16F7445E0066563B /* ViewController.xib in Resources */,
+				6068FA2716F744DB0066563B /* button_background_disabled.png in Resources */,
+				6068FA2816F744DB0066563B /* button_background_disabled@2x.png in Resources */,
+				6068FA2916F744DB0066563B /* button_background.png in Resources */,
+				6068FA2A16F744DB0066563B /* button_background@2x.png in Resources */,
+				6068FA3716F751A50066563B /* AddDishViewController.xib in Resources */,
+				605FE38D16F82F38009F06D2 /* OrderDishViewController.xib in Resources */,
+				60F1FF2816F85B1B00E51DC2 /* OrderDishCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +223,10 @@
 				6068FA1216F7445E0066563B /* main.m in Sources */,
 				6068FA1616F7445E0066563B /* AppDelegate.m in Sources */,
 				6068FA1916F7445E0066563B /* ViewController.m in Sources */,
+				6068FA2D16F7461C0066563B /* Tool.m in Sources */,
+				6068FA3616F751A50066563B /* AddDishViewController.m in Sources */,
+				605FE38C16F82F38009F06D2 /* OrderDishViewController.m in Sources */,
+				60F1FF2616F85AF100E51DC2 /* OrderDishCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +340,7 @@
 				6068FA2116F7445E0066563B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

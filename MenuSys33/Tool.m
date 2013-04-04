@@ -10,4 +10,10 @@
 
 @implementation Tool
 
+
++(UIDeviceOrientation)iPadDeviceOrientation
+{
+      return [UIDevice currentDevice].orientation;
+}
+
 @end

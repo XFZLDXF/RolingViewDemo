@@ -10,4 +10,6 @@
 
 @interface Tool : NSObject
 
+//判断iPad设备方向
++(UIDeviceOrientation)iPadDeviceOrientation;
 @end

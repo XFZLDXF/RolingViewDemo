@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "OrderDishCell.h"
 
-@interface OrderDishViewController : UIViewController
+
+
+@interface OrderDishViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+
+
 
 @end
